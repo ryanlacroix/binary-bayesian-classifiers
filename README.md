@@ -8,7 +8,7 @@ Usage
 -----
 * Datasets based on randomly generated dependence trees can be created by running `generate_data.py` in the `dependent_data_generator` directory. Although probabilities are entirely random upon each class generation, the structure of the trees across all generated datasets may be modified in the `dep_tree.py` script.
 
-* The classifier can be invoked by running the `cross_validator.py` script within classifier directories. This script should be general enough to run classification on any number or size of binary datasets.
+* The classifier can be invoked by running the `cross_validator.py` script within the classifier directories. This script should be general enough to run classification on datasets of any class number, length and feature dimensions.
 
 * The wine dataset can be converted to binary form by running `process_wine_info.py` from within the `wine_dataset_interpreter` directory. Output is ready to be fed into `cross_validator.py` for classification. A seperate directory is already set up for the wine classifier, containing all datasets and minor invocation differences already implemented.
 
